@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna</a>
-    <a href="recipes/pancake.html">Pancake</a>
-    <a href="recipes/tacos.html">Tacos</a>
+    <nav>
+        <ul>
+            <li><a href="recipes/lasagna.html">Lasagna</a></li>
+            <li><a href="recipes/pancake.html">Pancake</a></li>
+            <li><a href="recipes/tacos.html">Tacos</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Odin Recipes</h1>
+        <div class="grid">
+            <div class="card">
+                <h2>Lasagna</h2>
+                <a href="recipes/lasagna.html" class="button">View Recipe</a>
+            </div>
+            <div class="card">
+                <h2>Pancake</h2>
+                <a href="recipes/pancake.html" class="button">View Recipe</a>
+            </div>
+            <div class="card">
+                <h2>Tacos</h2>
+                <a href="recipes/tacos.html" class="button">View Recipe</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
